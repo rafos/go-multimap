@@ -1,15 +1,15 @@
-[![GoDoc](https://godoc.org/github.com/rafos/go-multimap?status.svg)](https://godoc.org/github.com/rafos/go-multimap) [![Go Report Card](https://goreportcard.com/badge/github.com/rafos/go-multimap)](https://goreportcard.com/report/github.com/rafos/go-multimap) [![Coverage Status](https://coveralls.io/repos/github/rafos/go-multimap/badge.svg?branch=main&service=github)](https://coveralls.io/github/rafos/go-multimap?branch=main&service=github) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/rafos/go-multimap/blob/main/LICENSE)
+[![GoDoc](https://godoc.org/github.com/rafos/go-multimap?status.svg)](https://godoc.org/github.com/rafos/go-multimap) [![Go Report Card](https://goreportcard.com/badge/github.com/rafos/go-multimap)](https://goreportcard.com/report/github.com/rafos/go-multimap) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/rafos/go-multimap/blob/main/LICENSE)
 
 # Go-Multimap (Generic)
 
 This is my very first attempt at implementation the missing `multimap` data structure for the [Go](https://www.golang.org/project/) language.
 It's heavily inspired by Jason's Wangsadinata [go-multimap](https://github.com/jwangsadinata/go-multimap).
 
+The primary impetus, on the other hand, is that I come from programming in the Java language, where there is a [Guava](https://github.com/google/guava) library with a multimap implementation.
+
 References:
 [Wikipedia](https://en.wikipedia.org/wiki/Multimap),
 [Guava](https://google.github.io/guava/releases/19.0/api/docs/com/google/common/collect/Multimap.html)
-
-The primary impetus, on the other hand, is that I come from programming in the Java language, where there is a [Guava](https://github.com/google/guava) library with a multimap implementation.
 
 ## Installation ##
 
